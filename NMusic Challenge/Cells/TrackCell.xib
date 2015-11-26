@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="60" id="KGk-i7-Jjw" customClass="TrackCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ary-Rf-PJK">
+                        <rect key="frame" x="16" y="12" width="294" height="20"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Album name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBN-mw-NbQ">
+                        <rect key="frame" x="111" y="31" width="199" height="17"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPO-rx-TsU">
+                        <rect key="frame" x="16" y="31" width="79" height="17"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <color key="textColor" red="0.47058823529411764" green="0.47058823529411764" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="StF-Ag-sn6">
+                        <rect key="frame" x="100" y="31" width="4" height="17"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="uBN-mw-NbQ" firstAttribute="leading" secondItem="StF-Ag-sn6" secondAttribute="trailing" constant="7" id="1o7-z6-3ON"/>
+                    <constraint firstItem="StF-Ag-sn6" firstAttribute="leading" secondItem="EPO-rx-TsU" secondAttribute="trailing" constant="5" id="22g-7o-k9F"/>
+                    <constraint firstItem="uBN-mw-NbQ" firstAttribute="leading" secondItem="EPO-rx-TsU" secondAttribute="trailing" constant="16" id="7JC-gy-vQX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <color key="backgroundColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ary-Rf-PJK" firstAttribute="top" secondItem="KGk-i7-Jjw" secondAttribute="top" constant="12" id="7VQ-fB-kdd"/>
+                <constraint firstItem="EPO-rx-TsU" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" constant="16" id="Dnn-8Q-AuZ"/>
+                <constraint firstAttribute="bottom" secondItem="uBN-mw-NbQ" secondAttribute="bottom" constant="12" id="F7b-f1-Au0"/>
+                <constraint firstAttribute="bottom" secondItem="StF-Ag-sn6" secondAttribute="bottom" constant="12" id="GYy-WV-fM5"/>
+                <constraint firstAttribute="bottom" secondItem="EPO-rx-TsU" secondAttribute="bottom" constant="12" id="OmJ-tJ-TUt"/>
+                <constraint firstItem="ary-Rf-PJK" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" constant="16" id="VMp-FK-ufm"/>
+                <constraint firstAttribute="trailing" secondItem="ary-Rf-PJK" secondAttribute="trailing" constant="10" id="ciW-xu-LZp"/>
+                <constraint firstAttribute="trailing" secondItem="uBN-mw-NbQ" secondAttribute="trailing" constant="10" id="cp3-K1-Jd2"/>
+            </constraints>
+            <connections>
+                <outlet property="albumLabel" destination="uBN-mw-NbQ" id="hxg-tF-pIg"/>
+                <outlet property="artistLabel" destination="EPO-rx-TsU" id="szS-fA-hji"/>
+                <outlet property="trackLabel" destination="ary-Rf-PJK" id="uxc-Fa-T7y"/>
+            </connections>
+            <point key="canvasLocation" x="229" y="284"/>
+        </tableViewCell>
+    </objects>
+</document>

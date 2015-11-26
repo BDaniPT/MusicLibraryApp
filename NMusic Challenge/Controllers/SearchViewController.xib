@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchViewController">
+            <connections>
+                <outlet property="loadingIndicator" destination="U5d-73-Qhc" id="8we-HQ-r57"/>
+                <outlet property="loadingView" destination="EjY-nf-mrv" id="p2v-w3-VNp"/>
+                <outlet property="searchBar" destination="1iz-yC-ncP" id="EkP-q9-IIJ"/>
+                <outlet property="tableView" destination="QNZ-qI-zUy" id="NZj-m2-mIA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="1iz-yC-ncP">
+                    <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                    <animations/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <scopeButtonTitles>
+                        <string>Title</string>
+                        <string>Title</string>
+                    </scopeButtonTitles>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="jd4-7v-Esn"/>
+                    </connections>
+                </searchBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="60" sectionHeaderHeight="60" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="QNZ-qI-zUy">
+                    <rect key="frame" x="0.0" y="108" width="320" height="460"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="separatorColor" red="0.3529411764705882" green="0.3529411764705882" blue="0.3529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="sectionIndexBackgroundColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="C7b-pa-hwO"/>
+                        <outlet property="delegate" destination="-1" id="Gy6-97-djA"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EjY-nf-mrv">
+                    <rect key="frame" x="0.0" y="108" width="320" height="460"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="U5d-73-Qhc">
+                            <rect key="frame" x="150" y="120" width="20" height="20"/>
+                            <animations/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="U5d-73-Qhc" firstAttribute="centerX" secondItem="EjY-nf-mrv" secondAttribute="centerX" id="EdZ-x6-jjh"/>
+                        <constraint firstItem="U5d-73-Qhc" firstAttribute="centerY" secondItem="EjY-nf-mrv" secondAttribute="centerY" constant="-100" id="nDG-pG-r5D"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="QNZ-qI-zUy" secondAttribute="bottom" id="71a-PD-ISG"/>
+                <constraint firstItem="EjY-nf-mrv" firstAttribute="height" secondItem="QNZ-qI-zUy" secondAttribute="height" id="GRS-Cf-a5P"/>
+                <constraint firstItem="EjY-nf-mrv" firstAttribute="centerY" secondItem="QNZ-qI-zUy" secondAttribute="centerY" id="NQx-YS-lC6"/>
+                <constraint firstItem="QNZ-qI-zUy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="TSG-se-32n"/>
+                <constraint firstItem="1iz-yC-ncP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cMN-lq-DqL"/>
+                <constraint firstItem="EjY-nf-mrv" firstAttribute="width" secondItem="QNZ-qI-zUy" secondAttribute="width" id="mLl-Dc-UC8"/>
+                <constraint firstAttribute="trailing" secondItem="1iz-yC-ncP" secondAttribute="trailing" id="qF7-oi-sZU"/>
+                <constraint firstItem="EjY-nf-mrv" firstAttribute="centerX" secondItem="QNZ-qI-zUy" secondAttribute="centerX" id="qI6-ey-mz7"/>
+                <constraint firstAttribute="trailing" secondItem="QNZ-qI-zUy" secondAttribute="trailing" id="rCc-qt-RQk"/>
+                <constraint firstItem="1iz-yC-ncP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="sZO-P7-x0K"/>
+                <constraint firstItem="QNZ-qI-zUy" firstAttribute="top" secondItem="1iz-yC-ncP" secondAttribute="bottom" id="tr7-6u-WAP"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

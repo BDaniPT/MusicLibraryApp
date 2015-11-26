@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="60" id="KGk-i7-Jjw" customClass="AlbumCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mic" translatesAutoresizingMaskIntoConstraints="NO" id="3zH-w5-7GN">
+                        <rect key="frame" x="16" y="5" width="50" height="50"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="mvA-rj-4eq"/>
+                            <constraint firstAttribute="height" constant="50" id="sit-4C-ZNk"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDL-6l-x5r">
+                        <rect key="frame" x="74" y="12" width="236" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lkD-Uh-3xG">
+                        <rect key="frame" x="74" y="31" width="236" height="17"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="UDL-6l-x5r" firstAttribute="leading" secondItem="3zH-w5-7GN" secondAttribute="trailing" constant="8" id="JcL-FW-WO6"/>
+                    <constraint firstItem="lkD-Uh-3xG" firstAttribute="leading" secondItem="3zH-w5-7GN" secondAttribute="trailing" constant="8" id="jk8-we-uMF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <color key="backgroundColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="UDL-6l-x5r" secondAttribute="trailing" constant="10" id="6oT-1m-S0N"/>
+                <constraint firstAttribute="trailing" secondItem="lkD-Uh-3xG" secondAttribute="trailing" constant="10" id="APu-kX-aP1"/>
+                <constraint firstItem="3zH-w5-7GN" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" constant="16" id="HYU-q8-FTH"/>
+                <constraint firstItem="3zH-w5-7GN" firstAttribute="centerY" secondItem="KGk-i7-Jjw" secondAttribute="centerY" id="Z2X-Gy-Ypm"/>
+                <constraint firstAttribute="bottom" secondItem="lkD-Uh-3xG" secondAttribute="bottom" constant="12" id="dHu-oU-4ZQ"/>
+                <constraint firstItem="UDL-6l-x5r" firstAttribute="top" secondItem="KGk-i7-Jjw" secondAttribute="top" constant="12" id="vJg-AK-CBe"/>
+            </constraints>
+            <connections>
+                <outlet property="albumName" destination="UDL-6l-x5r" id="jMo-Ms-ZKu"/>
+                <outlet property="artistName" destination="lkD-Uh-3xG" id="Ljc-gH-z0I"/>
+                <outlet property="image" destination="3zH-w5-7GN" id="UN8-2g-5dI"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mic" width="300" height="300"/>
+    </resources>
+</document>

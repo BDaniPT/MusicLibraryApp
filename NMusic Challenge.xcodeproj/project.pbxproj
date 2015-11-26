@@ -7,25 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A04EE2571BFFDD3800330CF5 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A04EE2551BFFDD3800330CF5 /* SearchViewController.xib */; };
+		A04EE25A1C04B3BD00330CF5 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A04EE2591C04B3BD00330CF5 /* SearchViewController.m */; };
 		A0757E761BFF364200684CE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0757E751BFF364200684CE5 /* main.m */; };
 		A0757E791BFF364200684CE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0757E781BFF364200684CE5 /* AppDelegate.m */; };
-		A0757E7C1BFF364200684CE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0757E7B1BFF364200684CE5 /* ViewController.m */; };
-		A0757E7F1BFF364200684CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0757E7D1BFF364200684CE5 /* Main.storyboard */; };
 		A0757E811BFF364200684CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0757E801BFF364200684CE5 /* Assets.xcassets */; };
 		A0757E841BFF364200684CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0757E821BFF364200684CE5 /* LaunchScreen.storyboard */; };
+		A0B4F0791C04D4A5001A2BEC /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B4F0781C04D4A5001A2BEC /* Track.m */; };
+		A0B4F07C1C04D4B3001A2BEC /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B4F07B1C04D4B3001A2BEC /* Artist.m */; };
+		A0B4F07F1C04D4C1001A2BEC /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B4F07E1C04D4C1001A2BEC /* Album.m */; };
+		A0B4F08C1C04DC1E001A2BEC /* ArtistCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B4F08A1C04DC1E001A2BEC /* ArtistCell.m */; };
+		A0B4F08D1C04DC1E001A2BEC /* ArtistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0B4F08B1C04DC1E001A2BEC /* ArtistCell.xib */; };
+		A0B4F0911C05EC7B001A2BEC /* SeeMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B4F08F1C05EC7B001A2BEC /* SeeMoreCell.m */; };
+		A0B4F0921C05EC7B001A2BEC /* SeeMoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0B4F0901C05EC7B001A2BEC /* SeeMoreCell.xib */; };
+		A0B4F09C1C0601DE001A2BEC /* AlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B4F09A1C0601DE001A2BEC /* AlbumCell.m */; };
+		A0B4F09D1C0601DE001A2BEC /* AlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0B4F09B1C0601DE001A2BEC /* AlbumCell.xib */; };
+		A0B4F0A11C060B39001A2BEC /* TrackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B4F09F1C060B39001A2BEC /* TrackCell.m */; };
+		A0B4F0A21C060B39001A2BEC /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0B4F0A01C060B39001A2BEC /* TrackCell.xib */; };
+		A0B4F0A61C065AD3001A2BEC /* FullResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B4F0A41C065AD3001A2BEC /* FullResultsViewController.m */; };
+		A0B4F0A71C065AD3001A2BEC /* FullResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0B4F0A51C065AD3001A2BEC /* FullResultsViewController.xib */; };
+		A0B4F0AB1C0711BB001A2BEC /* EmptyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B4F0A91C0711BB001A2BEC /* EmptyCell.m */; };
+		A0B4F0AC1C0711BB001A2BEC /* EmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0B4F0AA1C0711BB001A2BEC /* EmptyCell.xib */; };
+		E4AA58388534E06BCD9BBFF1 /* libPods-NMusic Challenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF8B6A96E64A30047453DEC /* libPods-NMusic Challenge.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6362AD52265A3EA296ADB3C8 /* Pods-NMusic Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMusic Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-NMusic Challenge/Pods-NMusic Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		88DB0C2A3A5FBE1874F19E38 /* Pods-NMusic Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMusic Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NMusic Challenge/Pods-NMusic Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		9DF8B6A96E64A30047453DEC /* libPods-NMusic Challenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NMusic Challenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04EE2531BFFDD3800330CF5 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = Controllers/SearchViewController.h; sourceTree = "<group>"; };
+		A04EE2551BFFDD3800330CF5 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchViewController.xib; path = Controllers/SearchViewController.xib; sourceTree = "<group>"; };
+		A04EE2591C04B3BD00330CF5 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = Controllers/SearchViewController.m; sourceTree = "<group>"; };
 		A0757E711BFF364200684CE5 /* NMusic Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NMusic Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0757E751BFF364200684CE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0757E771BFF364200684CE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0757E781BFF364200684CE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A0757E7A1BFF364200684CE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A0757E7B1BFF364200684CE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A0757E7E1BFF364200684CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0757E801BFF364200684CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0757E831BFF364200684CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0757E851BFF364200684CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0B4F0771C04D4A5001A2BEC /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Track.h; path = Model/Track.h; sourceTree = "<group>"; };
+		A0B4F0781C04D4A5001A2BEC /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Track.m; path = Model/Track.m; sourceTree = "<group>"; };
+		A0B4F07A1C04D4B3001A2BEC /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Artist.h; path = Model/Artist.h; sourceTree = "<group>"; };
+		A0B4F07B1C04D4B3001A2BEC /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Artist.m; path = Model/Artist.m; sourceTree = "<group>"; };
+		A0B4F07D1C04D4C1001A2BEC /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Album.h; path = Model/Album.h; sourceTree = "<group>"; };
+		A0B4F07E1C04D4C1001A2BEC /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Album.m; path = Model/Album.m; sourceTree = "<group>"; };
+		A0B4F0891C04DC1E001A2BEC /* ArtistCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArtistCell.h; path = Cells/ArtistCell.h; sourceTree = "<group>"; };
+		A0B4F08A1C04DC1E001A2BEC /* ArtistCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArtistCell.m; path = Cells/ArtistCell.m; sourceTree = "<group>"; };
+		A0B4F08B1C04DC1E001A2BEC /* ArtistCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ArtistCell.xib; path = Cells/ArtistCell.xib; sourceTree = "<group>"; };
+		A0B4F08E1C05EC7B001A2BEC /* SeeMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeeMoreCell.h; path = Cells/SeeMoreCell.h; sourceTree = "<group>"; };
+		A0B4F08F1C05EC7B001A2BEC /* SeeMoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeeMoreCell.m; path = Cells/SeeMoreCell.m; sourceTree = "<group>"; };
+		A0B4F0901C05EC7B001A2BEC /* SeeMoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SeeMoreCell.xib; path = Cells/SeeMoreCell.xib; sourceTree = "<group>"; };
+		A0B4F0991C0601DE001A2BEC /* AlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlbumCell.h; path = Cells/AlbumCell.h; sourceTree = "<group>"; };
+		A0B4F09A1C0601DE001A2BEC /* AlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlbumCell.m; path = Cells/AlbumCell.m; sourceTree = "<group>"; };
+		A0B4F09B1C0601DE001A2BEC /* AlbumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlbumCell.xib; path = Cells/AlbumCell.xib; sourceTree = "<group>"; };
+		A0B4F09E1C060B39001A2BEC /* TrackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackCell.h; path = Cells/TrackCell.h; sourceTree = "<group>"; };
+		A0B4F09F1C060B39001A2BEC /* TrackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackCell.m; path = Cells/TrackCell.m; sourceTree = "<group>"; };
+		A0B4F0A01C060B39001A2BEC /* TrackCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TrackCell.xib; path = Cells/TrackCell.xib; sourceTree = "<group>"; };
+		A0B4F0A31C065AD3001A2BEC /* FullResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FullResultsViewController.h; path = Controllers/FullResultsViewController.h; sourceTree = "<group>"; };
+		A0B4F0A41C065AD3001A2BEC /* FullResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FullResultsViewController.m; path = Controllers/FullResultsViewController.m; sourceTree = "<group>"; };
+		A0B4F0A51C065AD3001A2BEC /* FullResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FullResultsViewController.xib; path = Controllers/FullResultsViewController.xib; sourceTree = "<group>"; };
+		A0B4F0A81C0711BB001A2BEC /* EmptyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmptyCell.h; path = Cells/EmptyCell.h; sourceTree = "<group>"; };
+		A0B4F0A91C0711BB001A2BEC /* EmptyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmptyCell.m; path = Cells/EmptyCell.m; sourceTree = "<group>"; };
+		A0B4F0AA1C0711BB001A2BEC /* EmptyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EmptyCell.xib; path = Cells/EmptyCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +76,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4AA58388534E06BCD9BBFF1 /* libPods-NMusic Challenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1356AEDE30C9489E9F01B6F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DF8B6A96E64A30047453DEC /* libPods-NMusic Challenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A04EE2581BFFDD3C00330CF5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A04EE2531BFFDD3800330CF5 /* SearchViewController.h */,
+				A04EE2591C04B3BD00330CF5 /* SearchViewController.m */,
+				A04EE2551BFFDD3800330CF5 /* SearchViewController.xib */,
+				A0B4F0A31C065AD3001A2BEC /* FullResultsViewController.h */,
+				A0B4F0A41C065AD3001A2BEC /* FullResultsViewController.m */,
+				A0B4F0A51C065AD3001A2BEC /* FullResultsViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		A0757E681BFF364200684CE5 = {
 			isa = PBXGroup;
 			children = (
 				A0757E731BFF364200684CE5 /* NMusic Challenge */,
 				A0757E721BFF364200684CE5 /* Products */,
+				C6E8AAD89CF2903944594357 /* Pods */,
+				1356AEDE30C9489E9F01B6F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +125,11 @@
 		A0757E731BFF364200684CE5 /* NMusic Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				A0B4F0801C04DB5E001A2BEC /* Cells */,
+				A04EE2581BFFDD3C00330CF5 /* Controllers */,
+				A0B4F0761C04D428001A2BEC /* Model */,
 				A0757E771BFF364200684CE5 /* AppDelegate.h */,
 				A0757E781BFF364200684CE5 /* AppDelegate.m */,
-				A0757E7A1BFF364200684CE5 /* ViewController.h */,
-				A0757E7B1BFF364200684CE5 /* ViewController.m */,
-				A0757E7D1BFF364200684CE5 /* Main.storyboard */,
 				A0757E801BFF364200684CE5 /* Assets.xcassets */,
 				A0757E821BFF364200684CE5 /* LaunchScreen.storyboard */,
 				A0757E851BFF364200684CE5 /* Info.plist */,
@@ -79,6 +146,50 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A0B4F0761C04D428001A2BEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0B4F07D1C04D4C1001A2BEC /* Album.h */,
+				A0B4F07E1C04D4C1001A2BEC /* Album.m */,
+				A0B4F07A1C04D4B3001A2BEC /* Artist.h */,
+				A0B4F07B1C04D4B3001A2BEC /* Artist.m */,
+				A0B4F0771C04D4A5001A2BEC /* Track.h */,
+				A0B4F0781C04D4A5001A2BEC /* Track.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A0B4F0801C04DB5E001A2BEC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A0B4F0991C0601DE001A2BEC /* AlbumCell.h */,
+				A0B4F09A1C0601DE001A2BEC /* AlbumCell.m */,
+				A0B4F09B1C0601DE001A2BEC /* AlbumCell.xib */,
+				A0B4F0891C04DC1E001A2BEC /* ArtistCell.h */,
+				A0B4F08A1C04DC1E001A2BEC /* ArtistCell.m */,
+				A0B4F08B1C04DC1E001A2BEC /* ArtistCell.xib */,
+				A0B4F0A81C0711BB001A2BEC /* EmptyCell.h */,
+				A0B4F0A91C0711BB001A2BEC /* EmptyCell.m */,
+				A0B4F0AA1C0711BB001A2BEC /* EmptyCell.xib */,
+				A0B4F08E1C05EC7B001A2BEC /* SeeMoreCell.h */,
+				A0B4F08F1C05EC7B001A2BEC /* SeeMoreCell.m */,
+				A0B4F0901C05EC7B001A2BEC /* SeeMoreCell.xib */,
+				A0B4F09E1C060B39001A2BEC /* TrackCell.h */,
+				A0B4F09F1C060B39001A2BEC /* TrackCell.m */,
+				A0B4F0A01C060B39001A2BEC /* TrackCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C6E8AAD89CF2903944594357 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88DB0C2A3A5FBE1874F19E38 /* Pods-NMusic Challenge.debug.xcconfig */,
+				6362AD52265A3EA296ADB3C8 /* Pods-NMusic Challenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0757E881BFF364200684CE5 /* Build configuration list for PBXNativeTarget "NMusic Challenge" */;
 			buildPhases = (
+				7B5105DD7D550B0F19D82D7E /* Check Pods Manifest.lock */,
 				A0757E6D1BFF364200684CE5 /* Sources */,
 				A0757E6E1BFF364200684CE5 /* Frameworks */,
 				A0757E6F1BFF364200684CE5 /* Resources */,
+				90B0C9E6C4D33B2025316F79 /* Embed Pods Frameworks */,
+				A2AA7CB72669EC85D8787240 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,36 +250,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B4F0921C05EC7B001A2BEC /* SeeMoreCell.xib in Resources */,
 				A0757E841BFF364200684CE5 /* LaunchScreen.storyboard in Resources */,
+				A0B4F0AC1C0711BB001A2BEC /* EmptyCell.xib in Resources */,
+				A0B4F0A71C065AD3001A2BEC /* FullResultsViewController.xib in Resources */,
+				A0B4F0A21C060B39001A2BEC /* TrackCell.xib in Resources */,
 				A0757E811BFF364200684CE5 /* Assets.xcassets in Resources */,
-				A0757E7F1BFF364200684CE5 /* Main.storyboard in Resources */,
+				A0B4F08D1C04DC1E001A2BEC /* ArtistCell.xib in Resources */,
+				A04EE2571BFFDD3800330CF5 /* SearchViewController.xib in Resources */,
+				A0B4F09D1C0601DE001A2BEC /* AlbumCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B5105DD7D550B0F19D82D7E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90B0C9E6C4D33B2025316F79 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NMusic Challenge/Pods-NMusic Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2AA7CB72669EC85D8787240 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NMusic Challenge/Pods-NMusic Challenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0757E6D1BFF364200684CE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0757E7C1BFF364200684CE5 /* ViewController.m in Sources */,
+				A0B4F0911C05EC7B001A2BEC /* SeeMoreCell.m in Sources */,
+				A0B4F09C1C0601DE001A2BEC /* AlbumCell.m in Sources */,
 				A0757E791BFF364200684CE5 /* AppDelegate.m in Sources */,
+				A04EE25A1C04B3BD00330CF5 /* SearchViewController.m in Sources */,
+				A0B4F0A61C065AD3001A2BEC /* FullResultsViewController.m in Sources */,
+				A0B4F0AB1C0711BB001A2BEC /* EmptyCell.m in Sources */,
 				A0757E761BFF364200684CE5 /* main.m in Sources */,
+				A0B4F0A11C060B39001A2BEC /* TrackCell.m in Sources */,
+				A0B4F08C1C04DC1E001A2BEC /* ArtistCell.m in Sources */,
+				A0B4F07F1C04D4C1001A2BEC /* Album.m in Sources */,
+				A0B4F0791C04D4A5001A2BEC /* Track.m in Sources */,
+				A0B4F07C1C04D4B3001A2BEC /* Artist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A0757E7D1BFF364200684CE5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0757E7E1BFF364200684CE5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A0757E821BFF364200684CE5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,6 +428,7 @@
 		};
 		A0757E891BFF364200684CE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DB0C2A3A5FBE1874F19E38 /* Pods-NMusic Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "NMusic Challenge/Info.plist";
@@ -270,6 +440,7 @@
 		};
 		A0757E8A1BFF364200684CE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6362AD52265A3EA296ADB3C8 /* Pods-NMusic Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "NMusic Challenge/Info.plist";
@@ -298,6 +469,7 @@
 				A0757E8A1BFF364200684CE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
